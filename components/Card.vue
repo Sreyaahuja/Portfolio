@@ -1,5 +1,5 @@
 <template>
-  <div class="project card is-child tile">
+  <div class="column is-2 card project">
     <div class="card-image">
       <figure
         :class="['image', project.posterImage.ratio ? project.posterImage.ratio: 'is-square',]">
@@ -24,11 +24,13 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .project.card {
-  margin: 1rem;
   min-width: 300px;
-  flex-grow: 0;
+}
+
+.card-content {
+  padding: 1rem 0;
 }
 </style>
 

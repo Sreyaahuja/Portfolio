@@ -1,26 +1,26 @@
 <template>
-  <section class="container">
-    <div>
+  <div class="container">
+    <section class="section">
       <h1 class="title">
         Portfolio
       </h1>
       <h2 class="subtitle">
         My Projects
       </h2>
-      <section
-        v-for="(projects, category) in categories"
-        :key="category"
-        class="section">
-        <h2 class="title is-2">{{ category }}</h2>
-        <div class="container is-parent tile">
-          <card
-            v-for="project in projects"
-            :project="project"
-            :key="project.name" />
-        </div>
-      </section>
-    </div>
-  </section>
+    </section>
+    <section
+      v-for="(projects, category) in categories"
+      :key="category"
+      class="container section">
+      <h2 class="title is-2">{{ category }}</h2>
+      <div class="projects columns is-multiline">
+        <card
+          v-for="project in projects"
+          :project="project"
+          :key="project.name" />
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -38,18 +38,6 @@ export default {
 </script>
 
 <style>
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.my-projects {
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
