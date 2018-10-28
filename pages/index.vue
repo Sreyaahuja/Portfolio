@@ -1,42 +1,22 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
       <h1 class="title">
         Portfolio
       </h1>
       <h2 class="subtitle">
         My Projects
       </h2>
-      <section class="section">
-        <div class="my-projects container tile">
-          <div
+      <section
+        v-for="(projects, category) in categories"
+        :key="category"
+        class="section">
+        <h2 class="title is-2">{{ category }}</h2>
+        <div class="container is-parent tile">
+          <card
             v-for="project in projects"
-            :key="project.title"
-            class="project card">
-            <div class="card-image">
-              <figure
-                :class="['image', project.posterImage.ratio ? project.posterImage.ratio: 'is-square',]">
-                <img :src="project.posterImage.src">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">{{ project.name }}</p>
-                  <p class="subtitle is-6">
-                    <a
-                      v-for="tag in project.tags"
-                      :key="tag"
-                      href="#">
-                      {{ tag }}
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+            :project="project"
+            :key="project.name" />
         </div>
       </section>
     </div>
@@ -44,12 +24,14 @@
 </template>
 
 <script>
-import Projects from '~/assets/Projects.js'
+import Projects from '~/assets/Projects'
+import Card from '~/components/Card'
 
 export default {
+  components: { Card },
   data () {
     return {
-      projects: Projects
+      categories: Projects
     }
   }
 }
@@ -66,11 +48,6 @@ export default {
 .my-projects {
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.project.card {
-  min-width: 300px;
-  flex-grow: 0;
 }
 
 .title {
@@ -91,7 +68,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+h2.title.is-2 {
+  text-align: left;
 }
 </style>
