@@ -79,7 +79,66 @@ const Projects = {
       }, 
   ],
 
-  "Branding": [
+  
+  "Commerce": [
+    {
+      name: "Indian Buyers",
+      Description: "A study on Indian smartphone buyers",
+      posterImage: {
+        src: "eStore_cover.png"
+      },
+      tags: ["ux", "research"]
+    },
+    {
+      name: "Share Trading",
+      Description: "Players in the share trading market",
+      posterImage: {
+        src: ""
+      },
+      tags: ["ux", "research"]
+    },
+  ],
+    "Communities": [
+      {
+        name: "Litrit",
+        Description: "A social platform democratizing creative literature",
+        posterImage: {
+          src: "Litrit_cover.png"
+        },
+        tags: ["ux", "research", "ui", "community"]
+      },
+    {
+      name: "Tizen Community",
+      Description: "A support community for Tizen",
+      posterImage: {
+        src: "TizenCommunity_cover.png",
+      },
+      tags: ["ux", "community", "ui", "samsung"]
+    },
+  ],
+  "Emerging Tech": [
+    
+    {
+        name: "Bixby",
+        Description: "An intelligent assistant by Samsung",
+        posterImage: {
+          ratio: "",
+          src: "bixby_cover.png"
+        },
+        tags: ["ux", "iot", "samsung"]
+      },
+    ],
+    "Trend Scoping": [
+      {
+       name: "Zeitgeist",
+       Description: "the spirit of the 2010s",
+       posterImage: {
+         src: "Zeitgeist_cover.png"
+       },
+       tags: ["ux", "research"]
+     },
+   ],
+      "Branding": [
         {
         name: "The Florist",
         Description: "A --- flower retailer",
@@ -96,7 +155,6 @@ const Projects = {
         },
         tags: ["ui", "visual", "branding", "collaterals"]
       },
-      
       {
         name: "Doodle",
         Description: "A hypothetical stationary brand",
@@ -112,57 +170,32 @@ const Projects = {
           src: "whittle_cover.png"
         },
         tags: ["visual", "branding", "collaterals"]
-      },
-    
-  ],
-  Suar: [
-    {
-      name: "Tizen Community",
-      Description: "A support community for Tizen",
+      }
+     ],
+     "Art": [
+     {
+      name: "Journal Entries",
+      Description: "Metaphorical thoughts and expressions",
       posterImage: {
-        src: "TizenCommunity_cover.png",
+        src: "Journal_cover.png"
       },
-      tags: ["ux", "community", "ui", "samsung"]
     },
     {
-        name: "Litrit",
-        Description: "A social platform democratizing creative literature",
-        posterImage: {
-          src: "Litrit_cover.png"
-        },
-        tags: ["ux", "research", "ui", "community"]
-      },
-      {
-        name: "Zeitgeist",
-        Description: "the spirit of the 2010s",
-        posterImage: {
-          src: "Zeitgeist_cover.png"
-        },
-        tags: ["ux", "research"]
-      },
-     
-    
-    {
-        name: "Bixby",
-        Description: "An intelligent assistant by Samsung",
-        posterImage: {
-          ratio: "",
-          src: "bixby_cover.png"
-        },
-        tags: ["ux", "iot", "samsung"]
-      },
-    
-    {
-      name: "Indian Buyers",
-      Description: "A study on Indian smartphone buyers",
+      name: "Devil's Advocate",
+      Description: "Valentine's week: the devil's way",
       posterImage: {
-        src: "eStore_cover.png"
+        src: "DevilsAdvocate_cover.png"
       },
-      tags: ["ux", "research"]
     },
-  
-    
+    {
+      name: "Music and Lyrics",
+      Description: "Visuals built with harmonic cadence",
+      posterImage: {
+        src: "MusicAndLyrics_cover.png"
+      }
+    }
   ]
+  
 };
 
 export default Projects;
