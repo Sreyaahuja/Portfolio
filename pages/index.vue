@@ -1,12 +1,7 @@
 <template>
   <div class="container">
-    <section class="section">
-      <h1 class="title">
-        Portfolio
-      </h1>
-      <h2 class="subtitle">
-        My Projects
-      </h2>
+    <section class="section header">
+      <img src="Title.jpg">  
     </section>
     <section
       v-for="(projects, category) in categories"
@@ -38,6 +33,13 @@ export default {
 </script>
 
 <style>
+.section.header img {
+  width: 319px;
+  height: 258px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
