@@ -71,9 +71,9 @@ const Projects = {
       {
         name: "Make A Way",
         Description: "A two player strategy board game",
-        contentImage: "",
+        contentImage: "MakeAWay.png",
         posterImage: {
-          src: "heart-cover.png"
+          src: "MakeAWay_cover.png"
         },
         tags: ["ux", "gaming", "working model"]
       },
@@ -89,13 +89,22 @@ const Projects = {
   ],
 
   
-  "Commerce": [
+  "Solely Research Based": [
     {
       name: "Indian Buyers",
       Description: "A study on Indian smartphone buyers",
       contentImage: "IndianBuyers.png",
       posterImage: {
         src: "eStore_cover.png"
+      },
+      tags: ["ux", "research"]
+    },
+    {
+      name: "Zeitgeist",
+      Description: "the spirit of the 2010s",
+      contentImage: "Zeitgeist.png",
+      posterImage: {
+        src: "Zeitgeist_cover.png"
       },
       tags: ["ux", "research"]
     },
@@ -142,17 +151,7 @@ const Projects = {
         tags: ["ux", "iot", "samsung"]
       },
     ],
-    "Trend Scoping": [
-      {
-       name: "Zeitgeist",
-       Description: "the spirit of the 2010s",
-       contentImage: "Zeitgeist.png",
-       posterImage: {
-         src: "Zeitgeist_cover.png"
-       },
-       tags: ["ux", "research"]
-     },
-   ],
+   
       "Branding": [
         {
         name: "The Florist",
