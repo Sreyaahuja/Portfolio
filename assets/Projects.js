@@ -9,7 +9,7 @@ const Projects = {
         ratio: "",
         src: "polarity_cover.png"
       },
-      tags: ["ux", "iot", "healthcare", "ui", "research"]
+      tags: ["ux", "iot", "ui", "research"]
     },
     {
       name: "Heart Rate Sensor",
@@ -27,7 +27,7 @@ const Projects = {
         posterImage: {
           src: "prescrip_cover.png"
         },
-        tags: ["ux", "healthcare", "ui"]
+        tags: ["ux", "ui"]
       },
       {
         name: "Vital",
@@ -36,7 +36,7 @@ const Projects = {
         posterImage: {
           src: "Vital_cover.png"
         },
-        tags: ["ux", "healthcare", "ui", "working model"]
+        tags: ["ux", "ui", "working model"]
       }
   ],
   "Gaming": [
@@ -48,7 +48,7 @@ const Projects = {
           ratio: "",
           src: "GameLive_cover.png"
         },
-        tags: ["ux", "gaming", "samsung"]
+        tags: ["ux", "samsung"]
       },
       {
         name: "Game Launcher and Tools",
@@ -57,7 +57,7 @@ const Projects = {
         posterImage: {
           src: "GL&T_cover.png"
         },
-        tags: ["ux", "gaming", "ui", "samsung"]
+        tags: ["ux", "ui", "samsung"]
       },
       {
         name: "Gaming Chair",
@@ -66,7 +66,7 @@ const Projects = {
         posterImage: {
           src: "GamingChair_cover.png"
         },
-        tags: ["ux", "gaming", "working model"]
+        tags: ["ux", "working model"]
       },
       {
         name: "Make A Way",
@@ -75,7 +75,7 @@ const Projects = {
         posterImage: {
           src: "MakeAWay_cover.png"
         },
-        tags: ["ux", "gaming", "working model"]
+        tags: ["ux", "working model"]
       },
       {
         name: "Strategic Gaming",
@@ -84,7 +84,7 @@ const Projects = {
         posterImage: {
           src: "heart-cover.png"
         },
-        tags: ["ux", "gaming", "research"]
+        tags: ["ux", "research"]
       }, 
   ],
 
@@ -118,7 +118,7 @@ const Projects = {
       tags: ["ux", "research"]
     },
   ],
-    "Communities": [
+    "Community": [
       {
         name: "Litrit",
         Description: "A social platform democratizing creative literature",
@@ -126,7 +126,7 @@ const Projects = {
         posterImage: {
           src: "Litrit_cover.png"
         },
-        tags: ["ux", "research", "ui", "community"]
+        tags: ["ux", "research", "ui"]
       },
     {
       name: "Tizen Community",
@@ -135,7 +135,7 @@ const Projects = {
       posterImage: {
         src: "TizenCommunity_cover.png",
       },
-      tags: ["ux", "community", "ui", "samsung"]
+      tags: ["ux", "ui", "samsung"]
     },
   ],
 
@@ -170,7 +170,7 @@ const Projects = {
         posterImage: {
           src: "florist_cover.png"
         },
-        tags: ["visual", "branding", "collaterals"]
+        tags: ["visual", "collaterals"]
       },
         {
         name: "Vegan League",
@@ -179,7 +179,7 @@ const Projects = {
         posterImage: {
           src: "VeganLeague_cover.png"
         },
-        tags: ["ui", "visual", "branding", "collaterals"]
+        tags: ["ui", "visual", "collaterals"]
       },
       {
         name: "Doodle",
@@ -188,7 +188,7 @@ const Projects = {
         posterImage: {
           src: "doodle_cover.png"
         },
-        tags: ["visual", "branding", "collaterals"]
+        tags: ["visual", "collaterals"]
       },
       {
         name: "Whittle",
@@ -197,7 +197,7 @@ const Projects = {
         posterImage: {
           src: "whittle_cover.png"
         },
-        tags: ["visual", "branding", "collaterals"]
+        tags: ["visual", "collaterals"]
       }
      ],
      "Art": [
