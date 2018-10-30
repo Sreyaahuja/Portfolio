@@ -1,13 +1,8 @@
 <template>
   <div class="container">
-    <div class="section">
-      <h2 class="title is-1">
-        Sreya Ahuja
-      </h2>
-      <h2 class="subtitle">
-        Portfolio
-      </h2>
-    </div>
+    <section class="section header">
+      <img src="/Title.jpg">
+    </section>
     <section
       v-for="(projects, category) in categories"
       :key="category"
@@ -38,6 +33,13 @@ export default {
 </script>
 
 <style>
+.section.header img {
+  width: 319px;
+  height: 258px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
