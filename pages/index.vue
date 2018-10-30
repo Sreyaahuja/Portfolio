@@ -1,19 +1,19 @@
 <template>
   <div class="container">
-    <section class="section">
-      <h1 class="title">
-        Portfolio
-      </h1>
-      <h2 class="subtitle">
-        My Projects
+    <div class="section">
+      <h2 class="title is-1">
+        Sreya Ahuja
       </h2>
-    </section>
+      <h2 class="subtitle">
+        Portfolio
+      </h2>
+    </div>
     <section
       v-for="(projects, category) in categories"
       :key="category"
       class="container section">
-      <h2 class="title is-2">{{ category }}</h2>
-      <div class="projects columns is-multiline">
+      <h2 class="title is-1">{{ category }}</h2>
+      <div class="columns is-multiline">
         <card
           v-for="project in projects"
           :project="project"
@@ -56,7 +56,7 @@ export default {
   padding-bottom: 15px;
 }
 
-h2.title.is-2 {
-  text-align: left;
+h2.title.is-1 {
+  font-weight: 400;
 }
 </style>

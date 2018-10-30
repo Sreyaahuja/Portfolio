@@ -21,12 +21,13 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: 'red' },
 
   /*
   ** Global CSS
   */
   css: [
+    { src: '~/assets/css/main.scss', lang: 'scss' }
   ],
 
   /*
@@ -40,7 +41,7 @@ module.exports = {
   */
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    // '@nuxtjs/bulma'
   ],
 
   /*
