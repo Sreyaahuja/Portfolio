@@ -52,6 +52,10 @@ module.exports = {
     }]
   ],
 
+  router: {
+    mode: 'hash'
+  },
+
   /*
   ** Build configuration
   */
