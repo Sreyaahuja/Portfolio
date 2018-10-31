@@ -23,7 +23,7 @@
             :animation-duration="1000"
             :dot-size="15"
             :dots-num="3"
-            color="#ff1d5e"
+            color="#092d52"
             style="margin: 5rem auto"
           />
 
