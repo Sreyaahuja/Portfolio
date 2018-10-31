@@ -45,7 +45,7 @@ module.exports = {
     ['nuxt-social-meta', {
       url: 'https://www.sreya.me',
       title: 'Sreya Ahuja\'s Portfolio',
-      description: 'A website showcasing work I&#39;ve done in past lives.',
+      description: 'A website showcasing work I&#39;ve done.',
       img: 'Title.jog',
       locale: 'en_IN',
       themeColor: '#ThemeColor'
