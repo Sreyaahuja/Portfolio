@@ -2,11 +2,14 @@
   <div class="container">
     <section class="section header">
       <nuxt-link to="/"><img src="/Title.jpg"></nuxt-link>
+      <p
+        class="subtitle"
+        style="margin-bottom: 1rem">A User Experience Researcher and Designer.</p>
       <p class="subtitle">
-        A User Experience Researcher and Designer.
         <a
           href="/Sreya-Ahuja-Resume.pdf"
           download>My Résumé</a>
+        <span style="margin: 0px 5px">&bull;</span>
         <a
           href="https://www.instagram.com/sreya.ahuja/"
           target="_blank">My Art on Instagram</a>
