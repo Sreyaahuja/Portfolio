@@ -5,7 +5,7 @@
         <figure :class="['image', 'is-square']">
           <img src="/polarity_cover.png">
         </figure>
-        <h2 class="title">Indian Buyers Buying Habits</h2>
+        <h2 class="title is-3">Indian Buyers Buying Habits</h2>
         <span
           class="tag is-rounded is-medium"
           href="#">
@@ -30,7 +30,7 @@
       <div class="column">
         <img src="/IndianBuyers.png">
       </div>
-      <div class="column is-1 close-column"><span class="tag is-large is-delete" /></div>
+      <div class="column is-1 close-column"><nuxt-link to="/"><span class="tag is-large is-delete" /></nuxt-link></div>
     </div>
   </div>
 </template>
