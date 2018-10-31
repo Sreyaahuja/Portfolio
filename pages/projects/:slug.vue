@@ -70,7 +70,7 @@ export default {
     if (this.project) {
       this.loading = true
       let img = new Image()
-      img.src = "/IndianBuyers.png"
+      img.src = this.project.posterImage.src
       img.addEventListener('load', this.loaded)
     } else {
       this.$router.push('/')
