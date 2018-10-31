@@ -112,7 +112,7 @@ const Projects = {
       description: "Players in the share trading market",
       contentImage: "/contentImage/ShareTrading.jpg",
       posterImage: {
-        src: ""
+        src: "ShareTrading_cover.png"
       },
       tags: ["ux", "research"],
       slug: "share-trading"
