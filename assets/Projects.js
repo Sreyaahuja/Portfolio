@@ -2,150 +2,161 @@ const Projects = {
   "Healthcare": [
     {
       name: "Polarity",
-      description:
-        "A healthcare assitant for those diagonosed with Bipolar Disorders",
-      contentImage: "Polarity.png",
-        posterImage: {
+      description: "A healthcare assitant for those diagonosed with Bipolar Disorders",
+      contentImage: "/contentImage/Polarity.png",
+      posterImage: {
         ratio: "",
         src: "polarity_cover.png"
       },
-      tags: ["ux", "research", "ui", "iot"]
+      tags: ["ux", "iot", "ui", "research"],
+      slug: "polarity"
     },
     {
       name: "Heart Rate Sensor",
       description: "Your pulse on your fingertips",
-      contentImage: "HeartRate.png",
+      contentImage: "/contentImage/HeartRate.png",
       posterImage: {
         src: "Heart_cover.png"
       },
-      tags: ["ux", "research", "ui", "working model", "iot"]
+      tags: ["ux", "research", "ui", "working model", "iot"],
+      slug: "heart-rate-sensor"
     },
     {
         name: "Prescrip",
-        Description: "Prescriptions, medicine reminders and more!",
-        contentImage: "Prescrip.png",
+        description: "Prescriptions, medicine reminders and more!",
+        contentImage: "/contentImage/Prescrip.png",
         posterImage: {
           src: "prescrip_cover.png"
         },
-        tags: ["ux", "ui"]
+        tags: ["ux", "ui"],
+        slug: "prescrip"
       },
       {
         name: "Vital",
-        Description: "blood sugar procedure solutions",
-        contentImage: "Vital.png",
+        description: "blood sugar procedure solutions",
+        contentImage: "/contentImage/Vital.png",
         posterImage: {
           src: "Vital_cover.png"
         },
-        tags: ["ux", "ui", "working model"]
+        tags: ["ux", "ui", "working model"],
+        slug: "vital"
       }
   ],
   "Gaming": [
     {
         name: "Game Live",
-        Description: "Livestream games from Samsung smartphones",
-        contentImage: "GameLive.png",
+        description: "Livestream games from Samsung smartphones",
+        contentImage: "/contentImage/GameLive.png",
         posterImage: {
           ratio: "",
           src: "GameLive_cover.png"
         },
-        tags: ["ux", "samsung", "ui"]
+        tags: ["ux", "samsung", "ui"],
+        slug: "game-live"
       },
       {
         name: "Game Launcher and Tools",
-        Description: "The ultimate control center for games on your Samsung smartphone",
-        contentImage: "GL&T.png",
+        description: "The ultimate control center for games on your Samsung smartphone",
+        contentImage: "/contentImage/GL&T.png",
         posterImage: {
           src: "GL&T_cover.png"
         },
-        tags: ["ux", "samsung", "ui"]
+        tags: ["ux", "ui", "samsung"],
+        slug: "game-launcher-and-tools"
       },
       {
         name: "Gaming Chair",
-        Description: "",
-        contentImage: "GamingChair.png",
+        description: "",
+        contentImage: "/contentImage/GamingChair.png",
         posterImage: {
           src: "GamingChair_cover.png"
         },
-        tags: ["ux", "working model"]
+        tags: ["ux", "working model"],
+        slug: "gaming-chair"
       },
       {
         name: "Make A Way",
-        Description: "A two player strategy board game",
-        contentImage: "MakeAWay.png",
+        description: "A two player strategy board game",
+        contentImage: "/contentImage/MakeAWay.png",
         posterImage: {
           src: "MakeAWay_cover.png"
         },
-        tags: ["ux", "working model"]
-      },
-     
+        tags: ["ux", "working model"],
+        slug: "make-a-way"
+      }
   ],
 
-  
   "Solely Research Based": [
     {
       name: "Indian Buyers",
-      Description: "A study on Indian smartphone buyers",
-      contentImage: "IndianBuyers.png",
+      description: "A study on Indian smartphone buyers",
+      contentImage: "/contentImage/IndianBuyers.png",
       posterImage: {
         src: "eStore_cover.png"
       },
-      tags: ["ux", "research"]
+      tags: ["ux", "research"],
+      slug: "indian-buyers"
     },
     {
       name: "Zeitgeist",
-      Description: "the spirit of the 2010s",
-      contentImage: "Zeitgeist.png",
+      description: "the spirit of the 2010s",
+      contentImage: "/contentImage/Zeitgeist.png",
       posterImage: {
         src: "Zeitgeist_cover.png"
       },
-      tags: ["ux", "research"]
+      tags: ["ux", "research"],
+      slug: "zeitgeist"
     },
     {
       name: "Share Trading",
-      Description: "Players in the share trading market",
-      contentImage: "ShareTrading.jpg",
+      description: "Players in the share trading market",
+      contentImage: "/contentImage/ShareTrading.jpg",
       posterImage: {
         src: ""
       },
-      tags: ["ux", "research"]
+      tags: ["ux", "research"],
+      slug: "share-trading"
     },
   ],
-    "Community": [
-      {
-        name: "Litrit",
-        Description: "A social platform democratizing creative literature",
-        contentImage: "Litrit.png",
-        posterImage: {
-          src: "Litrit_cover.png"
-        },
-        tags: ["ux", "research", "ui"]
+  "Community": [
+    {
+      name: "Litrit",
+      description: "A social platform democratizing creative literature",
+      contentImage: "/contentImage/Litrit.png",
+      posterImage: {
+        src: "Litrit_cover.png"
       },
+      tags: ["ux", "research", "ui"],
+      slug: "litrit"
+    },
     {
       name: "Tizen Community",
-      Description: "A support community for Tizen",
-      contentImage: "TizenCommunity.png",
+      description: "A support community for Tizen",
+      contentImage: "/contentImage/TizenCommunity.png",
       posterImage: {
         src: "TizenCommunity_cover.png",
       },
-      tags: ["ux", "samsung", "ui"]
+      tags: ["ux", "ui", "samsung"],
+      slug: "tizen-community"
     },
   ],
 
   "Emerging Tech": [
     {
         name: "Bixby",
-        Description: "An intelligent assistant by Samsung",
-        contentImage: "Bixby.png",
+        description: "An intelligent assistant by Samsung",
+        contentImage: "/contentImage/Bixby.png",
         posterImage: {
           ratio: "",
           src: "bixby_cover.png"
         },
-        tags: ["ux", "iot", "samsung"]
+        tags: ["ux", "iot", "samsung"],
+        slug: "bixby"
       },
       {
         name: "Multimodal control on UAVs",
         Description: "An exploration on multi-modal interactions with UAVs",
-        contentImage: "Aerx.png",
+        contentImage: "/contentImage/Aerx.png",
         posterImage: {
           ratio: "",
           src: "Aerx_cover.png"
@@ -154,68 +165,71 @@ const Projects = {
       },
     ],
    
-      "Branding": [
-        {
+    "Branding": [
+      {
         name: "The Florist",
         Description: "A plush flower retailer",
         contentImage: "TheFlorist.png",
         posterImage: {
           src: "florist_cover.png"
         },
-        tags: ["visual", "collaterals"]
+        tags: ["visual", "collaterals"],
+        slug: "the-florist"
+    },
+    {
+      name: "Vegan League",
+      description: "A one stop shop for all things vegan",
+      contentImage: "/contentImage/VeganLeague.png",
+      posterImage: {
+        src: "VeganLeague_cover.png"
       },
-        {
-        name: "Vegan League",
-        Description: "A one stop shop for all things vegan",
-        contentImage: "VeganLeague.png",
-        posterImage: {
-          src: "VeganLeague_cover.png"
-        },
-        tags: ["ui", "visual", "collaterals"]
+      tags: ["ui", "visual", "collaterals"],
+      slug: "vegan-league"
+    },
+    {
+      name: "Doodle",
+      description: "A hypothetical stationary brand",
+      contentImage: "/contentImage/Doodle.png",
+      posterImage: {
+        src: "doodle_cover.png"
       },
-      {
-        name: "Doodle",
-        Description: "A hypothetical stationary brand",
-        contentImage: "Doodle.png",
-        posterImage: {
-          src: "doodle_cover.png"
-        },
-        tags: ["visual", "collaterals"]
+      tags: ["visual", "collaterals"],
+      slug: "doodle"
+    },
+    {
+      name: "Whittle",
+      description: "High end pottery products",
+      contentImage: "/contentImage/Whittle.png",
+      posterImage: {
+        src: "whittle_cover.png"
       },
-      {
-        name: "Whittle",
-        Description: "High end pottery products",
-        contentImage: "Whittle.png",
-        posterImage: {
-          src: "whittle_cover.png"
-        },
-        tags: ["visual", "collaterals"]
-      }
-     ],
-     "Art": [
-     {
+      tags: ["visual", "collaterals"],
+      slug: "whittle"
+    }
+  ],
+  "Art": [
+    {
       name: "Journal Entries",
-      Description: "Metaphorical thoughts and expressions",
+      description: "Metaphorical thoughts and expressions",
       posterImage: {
         src: "Journal_cover.png"
       },
     },
     {
       name: "Devil's Advocate",
-      Description: "Valentine's week: the devil's way",
+      description: "Valentine's week: the devil's way",
       posterImage: {
         src: "DevilsAdvocate_cover.png"
       },
     },
     {
       name: "Music and Lyrics",
-      Description: "Visuals built with harmonic cadence",
+      description: "Visuals built with harmonic cadence",
       posterImage: {
         src: "MusicAndLyrics_cover.png"
       }
     }
   ]
-  
 };
 
 //Just a few entries from my art journal. These contain random thoughts, expressions and metaphors from my daily life.

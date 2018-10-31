@@ -3,50 +3,104 @@
     <div class="columns">
       <div class="column is-3">
         <figure :class="['image', 'is-square']">
-          <img src="/polarity_cover.png">
+          <img :src="'/' + project.posterImage.src">
         </figure>
-        <h2 class="title">Indian Buyers Buying Habits</h2>
-        <span
-          class="tag is-rounded is-medium"
-          href="#">
-          asdasd
-        </span>
-        <span
-          class="tag is-rounded is-medium"
-          href="#">
-          asdasd
-        </span>
-        <span
-          class="tag is-rounded is-medium"
-          href="#">
-          asdasd
-        </span>
-        <span
-          class="tag is-rounded is-medium"
-          href="#">
-          asdasd
-        </span>
+        <h2 class="title is-3">{{ project.name }}</h2>
+        <h3 class="subbtitle">{{ project.description }}</h3>
+        <div class="tags">
+          <span
+            v-for="tag in project.tags"
+            :key="tag"
+            class="tag is-rounded is-medium">{{ tag }}</span>
+        </div>
       </div>
       <div class="column">
-        <img src="/IndianBuyers.png">
+        <transition
+          name="fade"
+          mode="out-in">
+          <hollow-dots-spinner
+            v-if="loading"
+            :animation-duration="1000"
+            :dot-size="15"
+            :dots-num="3"
+            color="#ff1d5e"
+            style="margin: 5rem auto"
+          />
+
+          <img
+            v-else
+            :src="project.contentImage">
+        </transition>
       </div>
-      <div class="column is-1 close-column"><span class="tag is-large is-delete" /></div>
+      <div class="column is-1 close-column"><nuxt-link to="/"><span class="tag is-large is-delete" /></nuxt-link></div>
     </div>
   </div>
 </template>
 
 <script>
+import AllProjects from '~/assets/Projects'
+import { HollowDotsSpinner } from 'epic-spinners'
+
 export default {
+  components: { HollowDotsSpinner },
   data () {
     return {
-      name: 'test'
+      loading: false,
+      project: null
+    }
+  },
+  created () {
+    const slug = this.$route.params.slug
+
+    for (let category in AllProjects) {
+      const projects = AllProjects[category]
+
+      for (let i in projects) {
+        if (projects[i].slug === slug) {
+          this.project = projects[i]
+          break
+        }
+      }
+
+      if (this.project != null) break
+
+      console.log(category)
+    }
+
+    if (this.project) {
+      this.loading = true
+      let img = new Image()
+      img.src = "/IndianBuyers.png"
+      img.addEventListener('load', this.loaded)
+    } else {
+      this.$router.push('/')
+    }
+  },
+  methods: {
+    loaded () {
+      this.$nextTick(() => this.loading = false)
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
 .close-column .tag {
   position: fixed;
+}
+
+.scale-enter-active, .scale-leave-active {
+  transition: all .5s ease-in;
+}
+.scale-enter, .scale-leave-to {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s ease-in;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>

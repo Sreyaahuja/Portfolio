@@ -1,6 +1,6 @@
 <template>
   <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
-    <nuxt-link :to="'/projects/' + project.name">
+    <nuxt-link :to="'/projects/' + project.slug">
       <div class="card project">
         <div class="card-image">
           <figure

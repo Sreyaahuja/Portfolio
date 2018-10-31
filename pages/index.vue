@@ -1,7 +1,19 @@
 <template>
   <div class="container">
     <section class="section header">
-      <img src="/Title.jpg">
+      <nuxt-link to="/"><img src="/Title.jpg"></nuxt-link>
+      <p
+        class="subtitle"
+        style="margin-bottom: 1rem">A User Experience Researcher and Designer.</p>
+      <p class="subtitle">
+        <a
+          href="/Sreya-Ahuja-Resume.pdf"
+          download>My Résumé</a>
+        <span style="margin: 0px 5px">&bull;</span>
+        <a
+          href="https://www.instagram.com/sreya.ahuja/"
+          target="_blank">My Art on Instagram</a>
+      </p>
     </section>
     <section
       v-for="(projects, category) in categories"
@@ -40,9 +52,8 @@ export default {
   margin-right: auto;
   display: block;
 }
+
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -50,12 +61,10 @@ export default {
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
+p.subtitle {
+  font-weight: 400;
   color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  text-align: center;
 }
 
 h2.title.is-1 {

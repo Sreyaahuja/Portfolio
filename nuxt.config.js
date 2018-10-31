@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Sreya Ahuja\'s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -42,6 +42,14 @@ module.exports = {
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     // '@nuxtjs/bulma'
+    ['nuxt-social-meta', {
+      url: 'https://www.sreya.me',
+      title: 'Sreya Ahuja\'s Portfolio',
+      description: 'A website showcasing work I&#39;ve done in past lives.',
+      img: 'Title.jog',
+      locale: 'en_IN',
+      themeColor: '#ThemeColor'
+    }]
   ],
 
   /*
