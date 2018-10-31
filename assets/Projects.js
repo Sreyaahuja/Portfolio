@@ -62,7 +62,7 @@ const Projects = {
       {
         name: "Gaming Chair",
         Description: "",
-        contentImage: "",
+        contentImage: "GamingChair.png",
         posterImage: {
           src: "GamingChair_cover.png"
         },
@@ -77,15 +77,7 @@ const Projects = {
         },
         tags: ["ux", "working model"]
       },
-      {
-        name: "Strategic Gaming",
-        Description: "Evolution of strategy games and human psychology",
-        contentImage: "",
-        posterImage: {
-          src: "heart-cover.png"
-        },
-        tags: ["ux", "research"]
-      }, 
+     
   ],
 
   
@@ -151,21 +143,21 @@ const Projects = {
         tags: ["ux", "iot", "samsung"]
       },
       {
-        name: "AERX",
-        Description: "An intelligent assistant by Samsung",
-        contentImage: "Bixby.png",
+        name: "Multimodal control on UAVs",
+        Description: "An exploration on multi-modal interactions with UAVs",
+        contentImage: "Aerx.png",
         posterImage: {
           ratio: "",
-          src: "bixby_cover.png"
+          src: "Aerx_cover.png"
         },
-        tags: ["ux", "iot", "samsung"]
+        tags: ["ux", "iot", "UAVs"]
       },
     ],
    
       "Branding": [
         {
         name: "The Florist",
-        Description: "A --- flower retailer",
+        Description: "A plush flower retailer",
         contentImage: "TheFlorist.png",
         posterImage: {
           src: "florist_cover.png"
