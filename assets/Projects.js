@@ -52,7 +52,7 @@ const Projects = {
           ratio: "",
           src: "GameLive_cover.png"
         },
-        tags: ["ux", "samsung"],
+        tags: ["ux", "samsung", "ui"],
         slug: "game-live"
       },
       {
