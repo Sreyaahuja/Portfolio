@@ -9,7 +9,7 @@ const Projects = {
         ratio: "",
         src: "polarity_cover.png"
       },
-      tags: ["ux", "iot", "ui", "research"]
+      tags: ["ux", "research", "ui", "iot"]
     },
     {
       name: "Heart Rate Sensor",
@@ -48,7 +48,7 @@ const Projects = {
           ratio: "",
           src: "GameLive_cover.png"
         },
-        tags: ["ux", "samsung"]
+        tags: ["ux", "samsung", "ui"]
       },
       {
         name: "Game Launcher and Tools",
@@ -57,7 +57,7 @@ const Projects = {
         posterImage: {
           src: "GL&T_cover.png"
         },
-        tags: ["ux", "ui", "samsung"]
+        tags: ["ux", "samsung", "ui"]
       },
       {
         name: "Gaming Chair",
@@ -135,7 +135,7 @@ const Projects = {
       posterImage: {
         src: "TizenCommunity_cover.png",
       },
-      tags: ["ux", "ui", "samsung"]
+      tags: ["ux", "samsung", "ui"]
     },
   ],
 
