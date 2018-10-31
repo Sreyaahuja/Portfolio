@@ -6,7 +6,7 @@
           <img :src="'/' + project.posterImage.src">
         </figure>
         <h2 class="title is-3">{{ project.name }}</h2>
-        <h3 class="subbtitle">{{ project.description }}</h3>
+        <h3 class="project-subtitle">{{ project.description }}</h3>
         <div class="tags">
           <span
             v-for="tag in project.tags"
@@ -102,5 +102,9 @@ export default {
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}
+
+.project-subtitle {
+  margin-bottom: 1.5rem;
 }
 </style>
