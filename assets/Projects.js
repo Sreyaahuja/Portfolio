@@ -13,7 +13,7 @@ const Projects = {
     },
     {
       name: "Heart Rate Sensor",
-      description: "Your pulse on your fingertips",
+      description: "A device to check your pulse on your fingertips",
       contentImage: "/contentImage/HeartRate.png",
       posterImage: {
         src: "Heart_cover.png"
@@ -33,7 +33,7 @@ const Projects = {
       },
       {
         name: "Vital",
-        description: "blood sugar procedure solutions",
+        description: "A device for non-invasive blood sugar readings at home",
         contentImage: "/contentImage/Vital.png",
         posterImage: {
           src: "Vital_cover.png"
@@ -66,7 +66,7 @@ const Projects = {
       },
       {
         name: "Gaming Chair",
-        description: "",
+        description: " An immersive gaming experience",
         contentImage: "/contentImage/GamingChair.png",
         posterImage: {
           src: "GamingChair_cover.png"
