@@ -56,7 +56,7 @@ const Projects = {
       },
       {
         name: "Game Launcher and Tools",
-        description: "The ultimate control center for games on your Samsung smartphone",
+        description: "The ultimate control center for games on your Samsung smartphones",
         contentImage: "/contentImage/GL&T.png",
         posterImage: {
           src: "GL&T_cover.png"
