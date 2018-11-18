@@ -277,7 +277,7 @@ const Projects = {
 //Chocolate Day: Gluttony: When chocolate is all that you are made up of. And all that you can bleed.
 //Teddy Day: Wrath: When you're not particularly keen on teddy bears.
 //Promise Day: Sloth: When the reaper promises to come back for you!
-//Hug Day: Envy: 
+//Hug Day: Envy: When all you represent is a satanic symbol
 //Kiss Day: Lust: The kiss of death.
 
 
