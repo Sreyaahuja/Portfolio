@@ -54,6 +54,10 @@ h3.title {
   border-radius: 0.5rem;
   font-size: 1rem;
 }
+
+.image {
+  cursor: pointer;
+}
 </style>
 
 <script>
