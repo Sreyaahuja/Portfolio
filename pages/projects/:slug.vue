@@ -50,7 +50,7 @@ export default {
     }
   },
   created () {
-    const slug = this.$route.params.slug
+    const slug = 'projects/' + this.$route.params.slug
 
     for (let category in AllProjects) {
       const projects = AllProjects[category]
@@ -63,14 +63,12 @@ export default {
       }
 
       if (this.project != null) break
-
-      console.log(category)
     }
 
     if (this.project) {
       this.loading = true
       let img = new Image()
-      img.src = this.project.posterImage.src
+      img.src = this.project.contentImage
       img.addEventListener('load', this.loaded)
     } else {
       this.$router.push('/')

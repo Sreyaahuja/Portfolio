@@ -1,6 +1,6 @@
 <template>
   <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
-    <nuxt-link :to="'/projects/' + project.slug">
+    <nuxt-link :to="project.slug">
       <div class="card project">
         <div class="card-image">
           <figure
@@ -16,8 +16,7 @@
                 <span
                   v-for="tag in project.tags"
                   :key="tag"
-                  class="tag is-rounded is-medium"
-                  href="#">
+                  class="tag is-rounded is-medium">
                   {{ tag }}
                 </span>
               </div>
