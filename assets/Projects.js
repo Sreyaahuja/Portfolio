@@ -178,6 +178,16 @@ const Projects = {
       slug: "projects/connected-home"
     },
     {
+      name: "Game On",
+      Description: "Enabling and encouraging people to play more and achieve a healthy lifestyle",
+      contentImage: "contentImage/GameOn.png",
+      posterImage: {
+        src: "GameOn-cover.png"
+      },
+      tags: ["ux", "ui", "research"],
+      slug: "projects/game-on"
+    },
+    {
       name: "Vegan League",
       description: "A one stop shop for all things vegan",
       contentImage: "contentImage/VeganLeague.png",
