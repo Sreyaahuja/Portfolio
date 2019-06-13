@@ -166,16 +166,16 @@ const Projects = {
       },
     ],
    
-    "Branding": [
-      {
-        name: "The Florist",
-        Description: "A plush flower retailer",
-        contentImage: "contentImage/TheFlorist.png",
-        posterImage: {
-          src: "florist_cover.png"
-        },
-        tags: ["visual", "collaterals"],
-        slug: "projects/the-florist"
+  "Freelance": [
+    {
+      name: "Connected Home",
+      Description: "An IoT solution for a connected home",
+      contentImage: "contentImage/ConnectedHome.png",
+      posterImage: {
+        src: "ConnectedHome_cover.png"
+      },
+      tags: ["ux", "ui", "IoT"],
+      slug: "projects/connected-home"
     },
     {
       name: "Vegan League",
@@ -186,6 +186,16 @@ const Projects = {
       },
       tags: ["ui", "visual", "collaterals"],
       slug: "projects/vegan-league"
+    },
+      {
+      name: "The Florist",
+      Description: "A plush flower retailer",
+      contentImage: "contentImage/TheFlorist.png",
+      posterImage: {
+        src: "florist_cover.png"
+      },
+      tags: ["visual", "collaterals"],
+      slug: "projects/the-florist"
     },
     {
       name: "Doodle",
